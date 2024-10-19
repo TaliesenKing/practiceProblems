@@ -9,9 +9,20 @@
 */
 
 function evenNumberRange(num1, num2) {
-    // Your code here 
+    
 }
-
+//schools answer: 
+// function evenNumberRange(num1, num2) {
+//     //!!START
+//     const result = [];
+//     for (let i = num1; i <= num2; i++) {
+//         if (i % 2 === 0) {
+//             result.push(i);
+//         }
+//     }
+//     return result;
+//     //!!END
+// }
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
     module.exports = evenNumberRange;

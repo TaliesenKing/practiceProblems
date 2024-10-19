@@ -28,7 +28,12 @@ console.log(preserveFunc2('boolean', 'string', 'undefined')); // prints [ undefi
 function preserveTypes(array) {
     // Your code here 
 }
-
+//rays answer
+// function preserveTypes(array) {
+//     //!!START
+//     return (...types) => array.filter(el => types.includes(typeof el));
+//     //!!END
+// }
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
     module.exports = preserveTypes;

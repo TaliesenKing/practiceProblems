@@ -20,7 +20,16 @@
 */
 
 function dynamicSlice(start, end) {
-    // Your code here 
+   if (start < 0) {
+    start = 0;
+   }
+   return function(array) {
+    let newArr = [];
+    for (let i = start; i < end && i < array.length; i++) {
+      newArr.push(array[i]);
+      }
+      return newArr;
+   }
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
